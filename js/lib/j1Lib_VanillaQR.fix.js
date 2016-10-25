@@ -1,0 +1,1 @@
+!function(){var e=document.createElement("canvas");e.width="210",e.height="210";var t=new VanillaQR({size:300,colorLight:"transparent",colorDark:"#272f32",ecclevel:4,toTable:!1});window.j1Lib_QR=function(n){return t.url=n,t.init(),e.getContext("2d").clearRect(0,0,210,210),e.getContext("2d").drawImage(t.domElement,-20,-20,300,300),e.toDataURL("image/png")}}();

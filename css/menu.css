@@ -1,0 +1,41 @@
+@import url("lib/normalize.min.css");
+@import url("../font/material-icons/material-icons.css");
+@import url('../font/Open+Sans/css.css');
+html,body{
+    width: 100%;
+    height: 100%;
+    background: #f3eddf;
+    color: #272f32;
+    font-family: 'Open Sans Condensed', sans-serif !important;
+}
+div#menu{
+    background-color: transparent;
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    border-radius: 10px;
+    border: solid 2px #272f32;
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    background-position: 27% 50%;
+}
+div#menu>div{
+    height: 100%;
+    width: 40%;
+    background-color: #272f32;
+    right: 0px;
+    top: 0px;
+    position: absolute;
+    padding: 50px;
+    box-sizing: border-box;
+}
+div#menu>div>div#logo{
+    width:100%;
+    height: 60%;
+    background-image: url("../demo/logo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
